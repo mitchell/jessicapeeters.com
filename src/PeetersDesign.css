@@ -1,0 +1,26 @@
+.landing-page-container {
+  background-color: rgb(242, 238, 231);
+  height: 100%;
+}
+
+.landing-page-graphic {
+  margin: 10%;
+}
+
+.landing-page-text {
+  bottom: 5%;
+  color: rgb(84, 51, 61);
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.landing-page-text > p {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 500px) {
+  .landing-page-graphic {
+    margin-top: 30%;
+  }
+}
