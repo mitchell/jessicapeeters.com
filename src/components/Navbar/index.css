@@ -1,0 +1,84 @@
+.navbar {
+  background-image: url("../../images/header.svg");
+  background-repeat: repeat;
+  box-shadow: -1px -1px 1px rgb(42, 46, 60);
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.navbar-small {
+  bottom: 0;
+  padding-bottom: 5px;
+  top: auto;
+}
+
+.navbar-button {
+  background-color: rgb(139, 191, 209);
+  border-radius: 2px;
+  color: white;
+  float: right;
+  margin: 5px;
+  padding: 5px 10px;
+  transition: box-shadow 0.1s;
+}
+
+.navbar-button-close {
+  background-color: rgb(173, 184, 209);
+}
+
+.navbar-button:active {
+  box-shadow: 0 0 5px black inset;
+}
+
+.navbar-menu {
+  margin: 0 23.75%;
+  width: 52.5%;
+}
+
+.navbar-menu-button {
+  border-radius: 3px;
+  color: white;
+  float: left;
+  margin: 1% 2.5%;
+  overflow: hidden;
+  padding: 7px 0;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  transition: background-color 0.2s, box-shadow 0.1s;
+  width: 20%;
+}
+
+.navbar-menu-button:hover {
+  background-color: rgb(86, 95, 118);
+}
+
+.active-button {
+  background-color: rgb(130, 160, 196);
+  box-shadow: 0 0 5px rgb(59, 64, 83) inset;
+}
+
+.active-button:hover {
+  background-color: rgb(139, 191, 209);
+}
+
+@media screen and (max-width: 500px) {
+  .navbar-menu {
+    margin: auto;
+    width: 75%;
+  }
+  .navbar-menu-button {
+    margin: 5px 0;
+    padding: 5px 0;
+    width: 100%;
+  }
+
+  .navbar-menu-button:hover {
+    background-color: inherit;
+  }
+
+  .active-button:hover {
+    background-color: rgb(130, 160, 196);
+  }
+}

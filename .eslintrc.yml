@@ -1,0 +1,10 @@
+extends: 
+  - 'standard'
+  - 'plugin:react/recommended'
+  - 'plugin:flowtype/recommended'
+  - 'prettier'
+  - 'prettier/flowtype'
+  - 'prettier/react'
+plugins:
+  - react
+  - flowtype
